@@ -25,11 +25,4 @@ public class BusyFlightsController {
     public List<BusyFlightsResponse> query(@RequestBody BusyFlightsRequest request) throws JsonProcessingException {
         return manager.query(request);
     }
-
-    @RequestMapping(value = "/",
-        method = RequestMethod.GET,
-        produces = MediaType.APPLICATION_JSON_VALUE)
-    public String ping() {
-        return "ack!";
-    }
 }
