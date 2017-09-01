@@ -40,7 +40,7 @@ In order to add more suppliers the following steps should be followed:
 
 # What was missing?
 
-1 The integration test is not working as the CrazyAir and ToughJet URIs were not provided. In order to make it work...
+1. The integration test is not working as the CrazyAir and ToughJet URIs were not provided. In order to make it work...
 
 1.1 The URIs should be updated on each manager.
 
@@ -48,7 +48,7 @@ In order to add more suppliers the following steps should be followed:
 
 2. Current unit tests are validating the happy path only, there is no error handling implemented yet.
 
-3. CrazyAir's unit test is not validation the request transformation.
+3. CrazyAir's unit test is not validating the request transformation.
 
 4. There is no unit test for ToughJet implemented yet.
 
