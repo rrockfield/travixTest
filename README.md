@@ -6,8 +6,6 @@ BusyFlights is a flights search solution which aggregates flight results initial
 
 # Solution:
 
-NOTE: More than 90 min. were used to deliver this test, due to many interruptions and obligations.
-
 In order to add more suppliers the following steps should be followed:
 
 1. Create a new package with the provider's naming convention in the com.travix.medusa.busyfights.provider package, and use this package for including all of the files related to that provider.
@@ -51,4 +49,10 @@ In order to add more suppliers the following steps should be followed:
 3. CrazyAir's unit test is not validating the request transformation.
 
 4. There is no unit test for ToughJet implemented yet.
+
+# Note
+
+More than 90 min. were used to deliver this test, due to many interruptions and obligations.
+
+Actually... I spent more than 30 min. just for formatting this documentation file.
 
